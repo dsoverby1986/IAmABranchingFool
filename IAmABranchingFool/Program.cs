@@ -10,6 +10,17 @@ namespace IAmABranchingFool
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Select an option below:\n\n1.) Do triangle stuff\n2.) Do bubble sort stuff");
+            var option = Console.ReadLine();
+            Console.Clear();
+            if (option == "1")
+            {
+                
+            }
+            else if (option == "2")
+            {
+                BubbleSort.DoStuff();
+            }
         }
     }
 }
