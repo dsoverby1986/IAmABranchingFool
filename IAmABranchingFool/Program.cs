@@ -10,6 +10,13 @@ namespace IAmABranchingFool
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Select an option below:\n\n1.) Do triangle stuff");
+            var option = Console.ReadLine();
+            Console.Clear();
+            if (option == "1")
+            {
+                TriangleStuff.DoStuff();
+            }
         }
     }
 }
